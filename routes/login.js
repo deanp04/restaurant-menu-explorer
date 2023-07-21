@@ -4,6 +4,10 @@ const router = express.Router()
 
 // const { ensureAuth, ensureGuest } = require('../middleware/auth')
 
-router.get('/', indexController.getHome)
+router.get('/', loginController.getLogin)
+router.get('/new-acct', loginController.getSignup)
+router.get('/logout', loginController.getLogout)
+router.post('/', loginController.postLogin)
+router.post('/new', loginController.postSignup)
 
 module.exports = router
