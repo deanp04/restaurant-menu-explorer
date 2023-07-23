@@ -34,6 +34,7 @@
                     </div>
                 </div>
                 <div class="app-icon"><a href="/"><img src="/images/menuhub_logo.png"></a></div>
+                <% if (!loggedIn) { %><h6>Welcome! Create a login from the dropdown menu in the top-left, then login in order to see a list of restaurants. Thank you! </h6><% } %>
             </div>
             
             <% if (loggedIn) { %>
