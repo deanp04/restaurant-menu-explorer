@@ -108,6 +108,7 @@ h5 span {
 .header-img .app-icon img {
   float: left;
   width: 100px;
+  border-radius: 10px;
 }
 
 img.icon-img, img.url-img {
