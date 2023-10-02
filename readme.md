@@ -22,8 +22,10 @@ npm install
 set up your own .env with DB_CONNECTION = "your mongoDB connection string" and PORT
 npm start
 
-## Examples:
+## Other Projects:
 Take a look at these other projects that I have in my own portfolio:
+
+**Tenzies React-App:** (https://github.com/deanp04/tenzies-app)
 
 **Bug Tracker:** https://github.com/deanp04/bug-tracker-app-full-stack
 
